@@ -15,7 +15,7 @@ class DownloadimagesSpider(scrapy.Spider):
     name = 'downloadimages'
     custom_settings = {
         # "ROBOTSTXT_OBEY": False,
-        "IMAGES_STORE": '/home/clay/Pictures/images_',
+        "IMAGES_STORE": '/home/*/Pictures/images_',
         "IMAGES_EXPIRES": 30,
         'RETRY_HTTP_CODES': [401, 403, 500, 502, 503, 504],
         'RETYR_TIMES': 5,
