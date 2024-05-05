@@ -18,7 +18,7 @@ NEWSPIDER_MODULE = 'manhua.spiders'
 
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = False
-IMAGES_STORE = '/home/clay/Pictures/images'
+IMAGES_STORE = '/home/.../Pictures/images'
 IMAGES_EXPIRES = 30
 # TWISTED_REACTOR = 'twisted.internet.asyncioreactor.AsyncioSelectorReactor'
 
